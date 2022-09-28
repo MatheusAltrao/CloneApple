@@ -44,6 +44,6 @@ const body = document.querySelector('body')
 menu.onclick = function () {
   menu.classList.toggle('openmenu')
   links.classList.toggle('active')
-  body.classList.add('hidden')
+  body.classList.toggle('hidden')
 }
 

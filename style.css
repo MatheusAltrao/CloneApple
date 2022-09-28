@@ -5,6 +5,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  -webkit-tap-highlight-color: transparent;
+  /*pode ser transparent também*/
+}
+
 ul {
   list-style: none;
 }
@@ -396,6 +401,7 @@ body.hidden {
     overflow: hidden;
   }
 
+
   .links.active {
     top: 0%;
   }
@@ -491,8 +497,5 @@ body.hidden {
     width: 80%;
   }
 
-  .icon-menu:active,
-  .list-button button:active {
-    background-color: transparent;
-  }
+
 }
