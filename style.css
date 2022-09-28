@@ -388,7 +388,9 @@ i {
     align-items: flex-start;
     justify-content: flex-start;
 
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+
+    overflow: hidden;
   }
 
   .links.active {
@@ -416,10 +418,20 @@ i {
     background-color: #1d1d1f;
     border: none;
     border-radius: 0.5rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     height: 2.5rem;
 
     outline: none;
+
+    position: relative;
+  }
+
+  .icon-search {
+    position: relative;
+    top: 8px;
+    left: 35px;
+    fill: #86868b;
+    z-index: 11;
   }
 
   .seach input::placeholder {
