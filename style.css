@@ -488,5 +488,8 @@ i {
     width: 80%;
   }
 
-
+  .icon-menu:active,
+  .list-button button:active {
+    background-color: transparent;
+  }
 }
