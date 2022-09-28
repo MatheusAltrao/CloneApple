@@ -77,9 +77,10 @@ i {
 
 /*=====================navbar =====================*/
 
-
-header nav {
+#header #nav {
   background-color: #333;
+  position: relative;
+  z-index: 11;
 }
 
 
@@ -329,7 +330,7 @@ header nav {
 }
 
 .developer {
-  margin-top: 5rem;
+  margin: 3rem 0;
 }
 
 .developer p {
@@ -366,7 +367,7 @@ header nav {
 
   .menu {
     display: block;
-    z-index: 999999;
+    z-index: 11;
     position: relative;
   }
 
@@ -375,7 +376,7 @@ header nav {
     top: -100%;
     left: 0;
     right: 0;
-    z-index: 99;
+    z-index: 9;
     flex-direction: column;
     font-size: 1rem;
 
@@ -439,7 +440,7 @@ header nav {
   #logo {
     position: relative;
     top: 0;
-    z-index: 9999;
+    z-index: 10;
   }
 
   #bottom-header-inner {
