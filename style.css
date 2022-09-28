@@ -82,10 +82,7 @@ header nav {
   background-color: #333;
 }
 
-#logo {
-  position: relative;
-  z-index: 999;
-}
+
 
 #navbar,
 .links {
@@ -331,6 +328,28 @@ header nav {
   animation-delay: 1s;
 }
 
+.developer {
+  margin-top: 5rem;
+}
+
+.developer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.developer a {
+  display: block;
+  color: #0071e3;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+
+/* -================ media query =============== */
+
 @keyframes fromTop {
   from {
     transform: translateY(-50);
@@ -356,7 +375,7 @@ header nav {
     top: -100%;
     left: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 99;
     flex-direction: column;
     font-size: 1rem;
 
@@ -417,6 +436,12 @@ header nav {
     justify-content: space-between;
   }
 
+  #logo {
+    position: relative;
+    top: 0;
+    z-index: 9999;
+  }
+
   #bottom-header-inner {
     justify-content: center;
     gap: 5rem;
@@ -448,7 +473,7 @@ header nav {
 
   #main-content #description {
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 500;
     width: 80%;
   }
 
