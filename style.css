@@ -17,6 +17,11 @@ i {
   fill: #fff;
 }
 
+body.hidden {
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
 /* ===================== menu icon ================ */
 .menu {
   cursor: pointer;
@@ -80,8 +85,6 @@ i {
 #header #nav {
   background-color: #333;
 }
-
-
 
 #navbar,
 .links {

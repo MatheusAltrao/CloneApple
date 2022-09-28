@@ -37,11 +37,13 @@ blue.addEventListener('click', () => {
 
 
 
-var menu = document.getElementById('menu')
-var links = document.getElementById('links')
+const menu = document.getElementById('menu')
+const links = document.getElementById('links')
+const body = document.querySelector('body')
 
 menu.onclick = function () {
   menu.classList.toggle('openmenu')
   links.classList.toggle('active')
+  body.classList.add('hidden')
 }
 
