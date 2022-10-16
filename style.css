@@ -7,7 +7,6 @@
 
 html {
   -webkit-tap-highlight-color: transparent;
-  /*pode ser transparent também*/
 }
 
 ul {
@@ -34,10 +33,6 @@ body.hidden {
   width: 30px;
 
   display: none;
-}
-
-.menu:active {
-  background-color: transparent;
 }
 
 .menu div {
@@ -270,7 +265,7 @@ body.hidden {
   background-color: #a7c1d9;
 }
 
-.select:focus {
+.focus {
   outline: 2px solid #43a1ff;
 }
 
@@ -475,7 +470,7 @@ body.hidden {
     font-size: 12px;
   }
 
-  #list-button {
+  #listbutton {
     margin: 0 auto;
     width: 70%;
   }
